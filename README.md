@@ -1,4 +1,3 @@
-
 ---
 # Employee Search Website
 
@@ -40,36 +39,21 @@ cd employeessearch
 npm install
 ```
 
-3. Set up the MongoDB database:
-   - Create an account on MongoDB Atlas: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-   - Create a new cluster and obtain the connection URI.
-   - Replace `<your-mongodb-uri>` in the `.env` file with your MongoDB connection URI.
-
-4. Set up environment variables:
-   - Create a `.env` file in the `server` folder of the project.
-   - Specify the following environment variables in the `.env` file:
-
-```plaintext
-MONGODB_URI=mongodb+srv://zainwaseem9371:xx989mvrw8lgfC0q@cluster0.7rno3ax.mongodb.net/
-```
-
-Replace `<your-mongodb-uri>` with the MongoDB connection URI you obtained in the previous step.
-
-5. Start the backend server:
+3. Start the backend server:
 
 ```shell
 cd server
 npm start
 ```
 
-6. Start the frontend development server:
+4. Start the frontend development server:
 
 ```shell
 cd ..
 npm start
 ```
 
-7. Access the website locally in your browser:
+5. Access the website locally in your browser:
 
 ```
 http://localhost:3000
@@ -79,7 +63,6 @@ http://localhost:3000
 
 - Open the Employee Search Website in your browser.
 - Use the search bar to enter the employee's name or job title.
-- Click the "Search" button to retrieve matching employees.
 - View the detailed information of each employee.
 
 ## Technologies Used
